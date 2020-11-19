@@ -10,9 +10,10 @@
 					"-std=c++17",
 					"-stdlib=libc++",
 					"-g",
-					"${file}",
+					"${workspaceFolder}",
+					"${workspaceFolder}/main.cpp",
 					"-o",
-					"${fileDirname}/${fileBasenameNoExtension}"
+					"prova"
 				  ],
 				  "options": {
 					"cwd": "${workspaceFolder}"

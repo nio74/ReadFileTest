@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "bitset": "cpp",
+        "fstream": "cpp",
+        "locale": "cpp",
+        "string": "cpp"
+    }
+}

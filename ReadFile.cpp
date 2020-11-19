@@ -1,12 +1,16 @@
-#include "ReadFile.h"
-
 #include <string>
 #include <fstream>
 #include <sstream>
 #include <iostream>
 
 
-ReadFile::ReadFile(const char * nomeFile){
+#include "ReadFile.h"
+
+
+
+
+
+ReadFile::ReadFile(const char* nomeFile){
 
 
     std::string risultatoLettura;
@@ -32,3 +36,10 @@ ReadFile::ReadFile(const char * nomeFile){
     }
     
 }
+
+ReadFile::~ReadFile(){
+
+}
+
+
+

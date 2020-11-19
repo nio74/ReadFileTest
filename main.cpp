@@ -1,8 +1,8 @@
-#include "ReadFile.h"
+#include "Date.h"
+
+int main(){
+
+Date insertData(2222,2,2);
 
 
-int main()
-{ 
-
-   ReadFile readfile("/Users/paolomazzon/Desktop/Progettic++/OPENGL/leggifile/file.txt");
-}
+};
